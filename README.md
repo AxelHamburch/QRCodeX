@@ -1,5 +1,12 @@
-QRCode
+QRCodeX
 ======
+
+QRCodeX is a fork of QRCode and has only been slightly adapted. The files `/scr/qrcodex.c` and `/scr/qrcodex.h` were edited / renamed.
+
+This bypasses the error message [error: 'QRCode' was not declared in this scope](https://github.com/ricmoo/QRCode/issues/31).
+
+QRCode (original)
+----------
 
 A simple library for generating [QR codes](https://en.wikipedia.org/wiki/QR_code) in C,
 optimized for processing and memory constrained systems.
